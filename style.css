@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2f3e24; /*Dark green*/
+}
+.hidden{
+    display: none;
+}
+/*The Styling of Headings*/
+.one, .two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 20px;
+}
+/*Styling for the thrid heading in the footer*/
+.three{
+    display: flex;
+    justify-content: center;
+    color:white;
+    padding: auto;
+    font-size: 3dvb;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    letter-spacing: 1.2;
+    padding: 20px 0;
+}
+
+h1 {
+    color: #FFFFFF; /* Bright white */
+    font-family: 'Montserrat', sans-serif; /* Example font */
+    font-size: 3em; /* Example size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Subtle shadow */
+    letter-spacing: 1px; /* Spacing */
+    line-height: 1.2; /* Line height */
+    background-color: rgba(255, 215, 0, 0.2); /* Soft transparent gold */
+    padding: 10px; /* Padding */
+    margin: 20px 0; /* Spacing above and below */
+    border-radius: 9px;
+
+}
+
+h2 {
+    color: #FFFFFF; /* Bright white */
+    font-family: 'Montserrat', sans-serif; /* Example font */
+    font-size: 2em; /* Example size */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Subtle shadow */
+    letter-spacing: 0.5px; /* Spacing */
+    line-height: 1.3; /* Line height */
+    background-color: rgba(255, 215, 0, 0.2); /* Soft transparent gold */
+    padding: 5px; /* Padding */
+    margin: 10px 0; /* Spacing above and below */
+    border-radius: 9px\;
+}
+/*Styling for the Kings Story*/
+.kingStory{
+    font-size: 20px;
+    width:300px;
+    height: auto;
+    transition: all 0.3s ease;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: justify;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+/*Adding Hover*/
+.kingStory:hover{
+    transform: scale(1.1);
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.9);
+}
+/*The First Button Container*/
+.buttonContainer{
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*La la Mars Button Container*/
+.secondButton{
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px;
+}
+/*Click the King button*/
+.most{
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px;
+}
+/*Styling for both Button*/
+.button, .la, .clickMe{
+    background: whitesmoke;
+    border: #d3d3d3;
+    border-radius: 5px;
+    height:30px;
+    width: 23ex;
+    font-size:x-large;
+    font-style: italic;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.9);
+}
+/*Adding Hover for both Buttons*/
+.button:hover{
+    background: rgb(255, 255, 255);
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.3);
+}
+/*Adding Hover*/
+.la:hover{
+    background: rgb(255, 255, 255);
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.3);
+}
+.clickMe{
+    padding: 10px auto;
+    gap: 4px;
+}
+.clickMe:hover{
+    background: rgb(255, 255, 255);
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.3);
+}
+/*Styling for the Image*/
+.humanImage{
+    width: 350px;
+    height: 600px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+}
+/*Adding Hover*/
+.humanImage:hover{
+    transform: scale(1.1);
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.9);
+}
+/*Stylings for 1 both container*/
+.imageStory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin: 50px auto;
+    flex-direction: row-reverse;
+}
+/*Styling for Second Image*/
+.headImage{
+    border-radius: 19px;
+    width: 650px;
+    height: auto;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+/*Adding Hover*/
+.headImage:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.9);
+}
+/*Styling for Head Story*/
+.headStory{
+    font-size: 20px;
+    width:300px;
+    height: auto;
+    transition: all 0.3s ease;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: justify;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #ffffff;
+} 
+/*Adding Hover*/
+.headStory:hover{
+    transform: scale(1.1);
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.9);
+}
+/*Styling for 2 both Container*/
+.imagePara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin:50px auto;
+    flex-direction: row;
+    padding: 50px;
+} 
+/*Styling for the La la Mars Story*/
+.marsButton{
+    text-align: justify;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    width: 900px;
+    height: auto;
+    padding: 20px;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+/*Adding Hover*/
+.marsButton:hover{
+    transform: scale(1.1);
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.9);
+}
+/* Mars Story Box Aliging to Center */
+.marsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Styling for 3 both Container*/
+.runingMancontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin:50px auto;
+    padding: 50px;
+    flex-direction: row-reverse;
+}
+/*Styling for the Image of Running*/
+.runing{
+    border-radius: 19px;
+    width: 350px;
+    height: auto;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+/*Adding Hover*/
+.runing:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.9);
+}
+/*Styling for the Story of Runing*/
+.runStory{
+    font-size: 20px;
+    width:300px;
+    height: auto;
+    transition: all 0.3s ease;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: justify;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #ffffff;
+} 
+/*Adding Hover*/
+.runStory:hover{
+    transform: scale(1.1);
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.9);
+}
+/*Styling for 4 both Container*/
+.changingFacecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin:50px auto;
+    padding: 50px;
+    flex-direction: row;
+}
+/*Styling for body Chaning Image*/
+.change{
+    border-radius: 19px;
+    width: 350px;
+    height: auto;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+/*Adding hover to the changing image*/
+.change:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.9);
+}
+/*Styling for the Story on why the body Changing */
+.changeStory{
+    font-size: 20px;
+    width:300px;
+    height: auto;
+    transition: all 0.3s ease;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: justify;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #ffffff;
+} 
+/*Adding hover to the changing story*/
+.changeStory:hover{
+    transform: scale(1.1);
+    box-shadow:0 8px 15px rgba(0, 0, 0, 0.9);
+}
+
+/*Styling for 5 both button and para*/
+.humanContainer{
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    width: 100%; /* Full width of the parent container */
+    padding: 10px; /* Optional: Add padding if needed */
+    background-color: #f5f5dc; /* Soft cream */
+    margin: 20px 0; /* Spacing above and below */
+    border-radius: 15px;
+
+}
+/*Styling for Button Container*/
+.humanButton{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin:20px auto;
+    max-width: 800px;
+}
+/*Styling for the button*/
+.lastButton{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+/*Styling for the Image used in the Button*/
+.lastImage{
+    border-radius: 66%;
+    width: 300px;
+    height: auto;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+/*Adding hover*/
+.lastImage:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.9);
+}
+/*Styling to the Buttons texts*/
+.text{
+    font-size: 20px;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    text-align: justify;
+    transition: all 0.3s ease;
+}
+/*Adding Hover*/
+.text:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.9);
+}
+
+/*Styling for the Footer background*/
+footer{
+    background-color: #111;
+}
+/*Styling for the footer container*/
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+/*Adjusting footer nav*/
+.footerNav{
+    margin: 30px 0;
+}
+/*Adjusting the ul to center*/
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+/*Adding style to ul li and a*/
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: all 0.5s ease;
+    box-shadow:0 4px 6px rgba(255, 255, 255, 0.2);
+}
+/*Adding hover effects to the links*/
+.footerNav ul li a:hover{
+    opacity: 60%;
+    color: black;
+    border-radius: 5px;
+    padding: 4px;
+    background-color:yellow;
+    transform: scale(1.1);
+    box-shadow:0 8px 15px rgba(255, 255, 255, 0.9);
+}
+
+/*Styling for Fotter Bottom*/
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Styling for P tag Copyright in Footer Bottom*/
+.footerBottom p{
+    color: white;
+}
+
+/*Styling for the Designer in Footer Bottom*/
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+/*Adding animation for Footer Nav ul and li*/
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+
+
+
+
